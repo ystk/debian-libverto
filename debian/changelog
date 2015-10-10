@@ -1,0 +1,23 @@
+libverto (0.2.4-2) unstable; urgency=medium
+
+  * Fix libverto-libev's setflags handling, Closes: #773778
+      - Without this fix, RADIUS support in krb5-kdc is entirely broken,
+    which prevents Debian from being a server for OTP preauth.
+  * 
+
+ -- Sam Hartman <hartmans@debian.org>  Mon, 29 Dec 2014 20:17:46 -0500
+
+libverto (0.2.4-1) unstable; urgency=low
+
+  * Update to new upstream
+  * New standards version
+  * Fix "libverto ftbfs on arm64" <update config.guess, config.sub
+    (Closes: #717838)
+
+ -- Sam Hartman <hartmans@debian.org>  Sun, 25 Aug 2013 16:20:13 -0400
+
+libverto (0.2.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #647740)  
+
+ -- Sam Hartman <hartmans@debian.org>  Sun, 27 Nov 2011 16:16:49 -0500
